@@ -17,5 +17,5 @@
         else
             messageStatus.textContent = "Message Failed to send :( " + (await sendMessage.text());
         e.target.reset(); // Clear the form fields.
-        window.location.href = '/smsriset.html';
+        window.location.href = '/ver.html';
     });
